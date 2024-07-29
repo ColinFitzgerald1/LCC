@@ -17,7 +17,7 @@ class Employee:
 
 class ProductionWorker(Employee):
     def __init__(self, name, number, shift_number, hourly):
-        super().__init__(self, name, number)
+        super().__init__(name, number)
         self.__shift_number = shift_number
         self.__hourly = hourly
 

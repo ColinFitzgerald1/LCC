@@ -24,7 +24,7 @@ class Person:
         
 class Customer(Person):
     def __init__(self, name, adress, number, customer_number, mailing_list):
-        person.Person.__init__(self, name, adress, number)
+        super().__init__(name, adress, number)
         self.__customer_number = customer_number
         self.__mailing_list = mailing_list
 
